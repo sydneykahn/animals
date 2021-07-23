@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <head>
     <title>Learn Sounds!</title>
-    <stylesheet src= "style.css"></stylesheet>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src= "script.js"></script>
 </head>
-<body>
+<body class="body">
     <h1>Learn Sounds!</h1>
     <div class = "container">
         <div class = "row">
           <div class = "col">
-            <div class="card cardhomecsscode-nextrow"> 
-              <img class="card-img-top-45" src="https://i.pinimg.com/originals/5d/ab/e2/5dabe2dd5f10d02e5de01b0db6a09448.jpg" alt="Card image cap" width="270px" height="324.5px">
+            <div class="card cardhomecsscode-nextrow" id="card-bg1"> 
+              <img class="card-img-top-45 text-center" src="https://i.pinimg.com/originals/5d/ab/e2/5dabe2dd5f10d02e5de01b0db6a09448.jpg" alt="Card image cap" width="270px" height="324.5px">
               <div class="card-body text-center">
                 <h5 class="card-title text-center">Cow</h5>
                 <p class="card-text"></p>
-                <audio controls class="btn btn-primary">
+                <audio controls class="audio-press">
                     <source src="noises/cow-moo.mp3" type="audio/mpeg">
                  Play Sound
                   </audio>
-                </div></div></div></div></div>
+                </div></div></div>
     
-    <div class = "container">
-    <div class = "row">
+
         <div class = "col">
-        <div class="card cardhomecsscode-nextrow"> 
-            <img class="card-img-top-45" src="images/pigimage.jpg" alt="Card image cap" width="263px" height=325px>
+        <div class="card cardhomecsscode-nextrow" id="card-bg2"> 
+            <img class="card-img-top-45 text-center" src="images/pigimage.jpg" alt="Card image cap" width="263px" height=325px>
             <div class="card-body text-center">
             <h5 class="card-title text-center">Pig</h5>
             <p class="card-text"></p>
-            <audio controls class="btn btn-primary">
+            <audio controls class="audio-press">
                 <source src="noises/pig-oink.mp3" type="audio/mpeg">
                 Play Sound
                 </audio>
-            </div></div></div></div></div>
+            </div></div></div>
 
-    <div class = "container">
-        <div class = "row">
+
             <div class = "col">
-            <div class="card cardhomecsscode-nextrow"> 
-                <img class="card-img-top-45" src="images/sheepimage.jpg" alt="Card image cap" width="269.5px" height=341.25px>
+            <div class="card cardhomecsscode-nextrow" id="card-bg3"> 
+                <img class="card-img-top-45 text-center" src="images/sheepimage.jpg" alt="Card image cap" width="269.5px" height=341.25px>
                 <div class="card-body text-center">
                 <h5 class="card-title text-center">Sheep</h5>
                 <p class="card-text"></p>
-                <audio controls class="btn btn-primary">
+                <audio controls class="audio-press">
                     <source src="noises/sheep-bah.mp3" type="audio/mpeg">
                     Play Sound
                     </audio>
-                </div></div></div></div></div>
+                </div></div></div>
+    
+            <div class = "col">
+                <div class="card cardhomecsscode-nextrow" id="card-bg4"> 
+                    <img class="card-img-top-45 text-center" src="images/chickenimage.jpg" alt="Card image cap" width="243.204px" height=341.196px>
+                    <div class="card-body text-center">
+                    <h5 class="card-title text-center">Chicken</h5>
+                    <p class="card-text"></p>
+                    <audio controls class="audio-press">
+                        <source src="noises/chicken-cluck.mp3" type="audio/mpeg">
+                        Play Sound
+                        </audio>
+                    </div></div></div>
+        <p>Think you're ready for a challenge? Try this test!</p>
+        <button type="button" class="btn btn-light" href="quiz.html">Click Here</button>
 </body>
