@@ -74,7 +74,7 @@
 		question: "What is the second sound?",
 		answers: {
 		  a: "Chicken",
-		  b: "Sheep",
+		  b: "Dog",
 		  c: "Horse"
 		},
 		correctAnswer: "a"
@@ -84,14 +84,15 @@
 		answers: {
 		  a: "Goat",
 		  b: "Cow",
-		  c: "Chicken"
+		  c: "Donkey"
 		},
 		correctAnswer: "b"
 	  },
 	  {
 		question: "What is the fourth sound?",
 		answers: {
-		  a: "Goat",
+		  a: "Dog",
+		  b:"Goat",
 		  c: "Horse"
 		},
 		correctAnswer: "a"
@@ -108,29 +109,29 @@
 	  {
 		question: "What is the sixth sound?",
 		answers: {
-		  a: "Chicken",
-		  b: "Sheep",
-		  c: "Horse"
+		  a: "Horse",
+		  b: "Cow",
+		  c: "Donkey"
 		},
-		correctAnswer: "a"
+		correctAnswer: "c"
 	  },
 	  {
 		question: "What is the seventh sound?",
 		answers: {
 		  a: "Sheep",
-		  b: "Cow",
-		  c: "Horse"
+		  b: "Horse",
+		  c: "Dog"
 		},
-		correctAnswer: "c"
+		correctAnswer: "b"
 	  },
 	  {
 		question: "What is the eigth sound?",
 		answers: {
-		  a: "Chicken",
-		  b: "Sheep",
-		  c: "Horse"
+		  a: "Donkey",
+		  b: "Pig",
+		  c: "Chicken"
 		},
-		correctAnswer: "a"
+		correctAnswer: "b"
 	  }
 	];
   
