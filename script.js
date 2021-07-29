@@ -64,7 +64,7 @@
 	  {
 		question: "What is the first sound?", 
 		answers: {
-		  a: "Cow",
+		  a: "Goat",
 		  b: "Pig",
 		  c: "Sheep"
 		},
@@ -82,7 +82,7 @@
 	  {
 		question: "What is the third sound?",
 		answers: {
-		  a: "Sheep",
+		  a: "Goat",
 		  b: "Cow",
 		  c: "Chicken"
 		},
@@ -91,30 +91,47 @@
 	  {
 		question: "What is the fourth sound?",
 		answers: {
-		  a: "Pig",
+		  a: "Goat",
+		  c: "Horse"
+		},
+		correctAnswer: "a"
+	  },
+	  {
+		question: "What is the fifth sound?",
+		answers: {
+		  a: "Cow",
+		  b: "Goat",
+		  c: "Sheep"
+		},
+		correctAnswer: "b"
+	  },
+	  {
+		question: "What is the sixth sound?",
+		answers: {
+		  a: "Chicken",
 		  b: "Sheep",
 		  c: "Horse"
 		},
 		correctAnswer: "a"
 	  },
-	//   {
-	// 	question: "What is the fifth sound?",
-	// 	answers: {
-	// 	  a: "Chicken",
-	// 	  b: "Sheep",
-	// 	  c: "Horse"
-	// 	},
-	// 	correctAnswer: "a"
-	//   },
-	//   {
-	// 	question: "What is the sixth sound?",
-	// 	answers: {
-	// 	  a: "Chicken",
-	// 	  b: "Sheep",
-	// 	  c: "Horse"
-	// 	},
-	// 	correctAnswer: "a"
-	//   }
+	  {
+		question: "What is the seventh sound?",
+		answers: {
+		  a: "Sheep",
+		  b: "Cow",
+		  c: "Horse"
+		},
+		correctAnswer: "c"
+	  },
+	  {
+		question: "What is the eigth sound?",
+		answers: {
+		  a: "Chicken",
+		  b: "Sheep",
+		  c: "Horse"
+		},
+		correctAnswer: "a"
+	  }
 	];
   
 	buildQuiz();
